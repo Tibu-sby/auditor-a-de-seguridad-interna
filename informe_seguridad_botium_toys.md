@@ -1,0 +1,89 @@
+Informe de Auditoría de Seguridad - Botium Toys
+
+Objetivo: Evaluar la seguridad de los activos, controles y cumplimiento normativo de Botium Toys.
+
+1️. Alcance de la Auditoría
+La auditoría cubre todos los sistemas, activos y redes de Botium Toys, incluyendo:
+Equipos y dispositivos de empleados (computadoras, teléfonos, accesorios).
+Red interna y conexión a Internet.
+Sistemas de gestión (contabilidad, seguridad, e-commerce, etc.).
+Almacenamiento de datos y bases de datos.
+Seguridad física (oficinas, tienda, almacén).
+________________________________________
+2️. Evaluación de Riesgos y Cumplimiento Normativo
+Puntaje de Riesgo: 8/10 (Alto)
+
+Los principales problemas encontrados fueron:
+•	Falta de gestión de activos → No hay control total sobre qué sistemas o dispositivos están en uso.
+•	 Acceso inseguro a datos → Todos los empleados pueden ver información de clientes sin restricciones.
+Falta de cifrado → Datos sensibles de clientes (tarjetas de crédito, PII/SPII) no están encriptados.
+•	Sin detección de intrusos → No hay un sistema IDS (Intrusion Detection System) para detectar ataques.
+•	Falta de copias de seguridad → No existen backups de datos críticos ni planes de recuperación.
+
+Lo positivo: Se tienen firewalls, antivirus y políticas básicas de contraseñas.
+________________________________________
+3️. Plan de Acción: 
+Controles de Seguridad Recomendad
+Categoría	Control	Descripción
+ Administrativo	Política de acceso mínimo (Least Privilege)	Restringir el acceso solo a los datos necesarios.
+Administrativo	Política de contraseñas robustas	Aumentar complejidad mínima (mín. 12 caracteres, mayúsculas, números, símbolos).
+Técnico	Implementar cifrado	Cifrar datos sensibles en bases de datos y en transmisión.
+Técnico	Implementar un sistema IDS	Monitorizar tráfico sospechoso para detectar intrusiones.
+Operacional	Realizar copias de seguridad periódicas	Implementar backups automáticos de datos críticos.
+Operacional	Mejora en control físico	Mejorar seguridad con sistemas de acceso con credenciales y videovigilancia.
+________________________________________
+
+Lista de comprobación de controles
+
+  Sí	    No	Control
+●		●	X	Privilegio mínimo
+●		●	X	Planes de recuperación ante desastres
+●		●	X	Políticas de contraseñas
+●		●	X	Separación de funciones
+●	X	●		Cortafuegos
+●		●	X	Sistema de detección de intrusos (IDS)
+●		●	X	Copias de seguridad
+●	X	●		Software antivirus
+●	X	●		Monitoreo manual, mantenimiento e intervención para sistemas antiguos
+●		●	X	Cifrado
+●		●	X	Sistema de gestión de contraseñas
+●	X	●		Candados (oficinas, escaparate, almacén)
+●	X	●		Vigilancia por circuito cerrado de televisión (CCTV)
+●	X	●		Detección/prevención de incendios (alarma de incendios, sistema de rociadores, etc.)
+
+________________________________________
+
+Lista de comprobación de cumplimiento
+
+Estándar de seguridad de datos de la industria de tarjetas de pago (PCI DSS)
+Sí	    No	Mejor práctica
+●		●	X	Sólo los usuarios autorizados tienen acceso a la información de las tarjetas de crédito de los clientes. 
+●		●	X	La información de las tarjetas de crédito se almacena, acepta, procesa y transmite internamente, en un entorno seguro.
+●		●	X	Implementar procedimientos de cifrado de datos para asegurar mejor los puntos de transacción y los datos de tarjetas de crédito. 
+●		●	X	Adoptar políticas seguras de gestión de contraseñas.
+
+
+Reglamento General de Protección de Datos (GDPR)
+Sí	    No	Mejor práctica
+●		●	X	Los datos de los clientes de la UE se mantienen privados/seguros.
+●	X	●		Existe un plan para notificar a los clientes de la UE dentro de las 72 horas si sus datos son comprometidos/hay una violación.
+●		●	X	Asegurar que los datos estén correctamente clasificados e inventariados.
+●		●	X	Aplicar políticas, procedimientos y procesos de privacidad para documentar y mantener adecuadamente los datos.
+
+
+Controles de Sistemas y Organizaciones (SOC tipo 1, SOC tipo 2) 
+Sí	    No	Mejor práctica
+●		●	X	Se establecen políticas de acceso de usuarios.
+●		●	X	Los datos sensibles (PII/SPII) son confidenciales/privados.
+●		●	X	La integridad de los datos asegura que los datos sean consistentes, completos, precisos y han sido validados.
+●		●	X	Los datos están disponibles para las personas autorizadas para acceder a ellos.
+
+________________________________________
+
+Recomendaciones:
+- Implementar un sistema de **cifrado** para la información sensible de clientes, como los datos de tarjetas de crédito.
+- Establecer un **plan de recuperación ante desastres** para asegurar la continuidad del negocio.
+- Mejorar la **gestión de contraseñas** asegurando su complejidad y regularidad.
+
+Informe realizado por: TIBU-SBY
+Fecha: 29/01/2025

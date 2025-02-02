@@ -1,0 +1,93 @@
+Security Audit Report - Botium Toys
+
+Objective: Evaluate the security of Botium Toys' assets, controls, and regulatory compliance.
+
+1️. Audit Scope
+The audit covers all Botium Toys systems, assets, and networks, including:
+
+Employee equipment and devices (computers, phones, accessories).
+Internal network and internet connection.
+Management systems (accounting, security, e-commerce, etc.).
+Data storage and databases.
+Physical security (offices, store, warehouse).
+
+
+2️. Risk Assessment and Regulatory Compliance
+Risk Score: 8/10 (High)
+
+The main issues found were:
+
+Lack of asset management → No full control over which systems or devices are in use.
+Insecure data access → All employees can view customer information without restrictions.
+Lack of encryption → Sensitive customer data (credit cards, PII/SPII) is not encrypted.
+No intrusion detection system → No IDS (Intrusion Detection System) to detect attacks.
+Lack of backups → No backups of critical data or recovery plans.
+Positive aspects: Firewalls, antivirus, and basic password policies are in place.
+
+
+3️. Action Plan: Recommended Security Controls
+
+Category	Control	Description
+Administrative	Least Privilege Access Policy	Restrict access only to necessary data.
+Administrative	Strong Password Policy	Increase password complexity (min. 12 characters, uppercase, numbers, symbols).
+Technical	Implement Encryption	Encrypt sensitive data in databases and during transmission.
+Technical	Implement IDS System	Monitor suspicious traffic to detect intrusions.
+Operational	Perform Regular Backups	Implement automatic backups of critical data.
+Operational	Improve Physical Security	Enhance security with credential access systems and CCTV.
+
+
+- Control Checklist
+
+	Yes		No	Control
+●		●	X	Privilegio mínimo
+●		●	X	Planes de recuperación ante desastres
+●		●	X	Políticas de contraseñas
+●		●	X	Separación de funciones
+●	X	●		Cortafuegos
+●		●	X	Sistema de detección de intrusos (IDS)
+●		●	X	Copias de seguridad
+●	X	●		Software antivirus
+●	X	●		Monitoreo manual, mantenimiento e intervención para sistemas antiguos
+●		●	X	Cifrado
+●		●	X	Sistema de gestión de contraseñas
+●	X	●		Candados (oficinas, escaparate, almacén)
+●	X	●		Vigilancia por circuito cerrado de televisión (CCTV)
+●	X	●		Detección/prevención de incendios (alarma de incendios, sistema de rociadores, etc.)
+
+
+- Compliance Checklist
+
+Payment Card Industry Data Security Standard (PCI DSS)
+
+	Yes		No	Best Practice
+●		●	X	Sólo los usuarios autorizados tienen acceso a la información de las tarjetas de crédito de los clientes. 
+●		●	X	La información de las tarjetas de crédito se almacena, acepta, procesa y transmite internamente, en un entorno seguro.
+●		●	X	Implementar procedimientos de cifrado de datos para asegurar mejor los puntos de transacción y los datos de tarjetas de crédito. 
+●		●	X	Adoptar políticas seguras de gestión de contraseñas.
+
+
+- General Data Protection Regulation (GDPR)
+
+	Yes		No	Best Practice
+●		●	X	Los datos de los clientes de la UE se mantienen privados/seguros.
+●	X	●		Existe un plan para notificar a los clientes de la UE dentro de las 72 horas si sus datos son comprometidos/hay una violación.
+●		●	X	Asegurar que los datos estén correctamente clasificados e inventariados.
+●		●	X	Aplicar políticas, procedimientos y procesos de privacidad para documentar y mantener adecuadamente los datos.
+
+
+- Systems and Organizations Controls (SOC Type 1, SOC Type 2)
+
+	Yes		No	Best Practice
+●		●	X	Se establecen políticas de acceso de usuarios.
+●		●	X	Los datos sensibles (PII/SPII) son confidenciales/privados.
+●		●	X	La integridad de los datos asegura que los datos sean consistentes, completos, precisos y han sido validados.
+●		●	X	Los datos están disponibles para las personas autorizadas para acceder a ellos.
+
+Recommendations:
+
+Implement an encryption system for sensitive customer information, such as credit card data.
+Establish a disaster recovery plan to ensure business continuity.
+Improve password management by ensuring complexity and regular updates.
+
+Report Created by: TIBU-SBY
+Date: 29/01/2025

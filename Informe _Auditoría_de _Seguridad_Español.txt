@@ -35,7 +35,7 @@ ________________________________________
 
 Lista de comprobación de controles
 
-        Sí		  No		Control
+        Sí		 No		Control
 ●		●	X	Privilegio mínimo
 ●		●	X	Planes de recuperación ante desastres
 ●		●	X	Políticas de contraseñas

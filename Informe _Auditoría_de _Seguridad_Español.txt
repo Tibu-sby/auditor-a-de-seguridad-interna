@@ -2,7 +2,7 @@ Informe de Auditoría de Seguridad - Botium Toys
 
 Objetivo: Evaluar la seguridad de los activos, controles y cumplimiento normativo de Botium Toys.
 
-1️. Alcance de la Auditoría
+1. Alcance de la Auditoría
 La auditoría cubre todos los sistemas, activos y redes de Botium Toys, incluyendo:
 Equipos y dispositivos de empleados (computadoras, teléfonos, accesorios).
 Red interna y conexión a Internet.
@@ -10,7 +10,7 @@ Sistemas de gestión (contabilidad, seguridad, e-commerce, etc.).
 Almacenamiento de datos y bases de datos.
 Seguridad física (oficinas, tienda, almacén).
 ________________________________________
-2️. Evaluación de Riesgos y Cumplimiento Normativo
+2. Evaluación de Riesgos y Cumplimiento Normativo
 Puntaje de Riesgo: 8/10 (Alto)
 
 Los principales problemas encontrados fueron:
@@ -22,7 +22,7 @@ Falta de cifrado → Datos sensibles de clientes (tarjetas de crédito, PII/SPII
 
 Lo positivo: Se tienen firewalls, antivirus y políticas básicas de contraseñas.
 ________________________________________
-3️. Plan de Acción: 
+3. Plan de Acción: 
 Controles de Seguridad Recomendad
 Categoría	Control	Descripción
  Administrativo	Política de acceso mínimo (Least Privilege)	Restringir el acceso solo a los datos necesarios.
@@ -35,7 +35,7 @@ ________________________________________
 
 Lista de comprobación de controles
 
-  Sí	    No	Control
+  Sí	    No	 Control
 ●		●	X	Privilegio mínimo
 ●		●	X	Planes de recuperación ante desastres
 ●		●	X	Políticas de contraseñas
@@ -56,7 +56,7 @@ ________________________________________
 Lista de comprobación de cumplimiento
 
 Estándar de seguridad de datos de la industria de tarjetas de pago (PCI DSS)
-Sí	    No	Mejor práctica
+Sí	    No	 Mejor práctica
 ●		●	X	Sólo los usuarios autorizados tienen acceso a la información de las tarjetas de crédito de los clientes. 
 ●		●	X	La información de las tarjetas de crédito se almacena, acepta, procesa y transmite internamente, en un entorno seguro.
 ●		●	X	Implementar procedimientos de cifrado de datos para asegurar mejor los puntos de transacción y los datos de tarjetas de crédito. 
@@ -64,7 +64,7 @@ Sí	    No	Mejor práctica
 
 
 Reglamento General de Protección de Datos (GDPR)
-Sí	    No	Mejor práctica
+Sí	    No	  Mejor práctica
 ●		●	X	Los datos de los clientes de la UE se mantienen privados/seguros.
 ●	X	●		Existe un plan para notificar a los clientes de la UE dentro de las 72 horas si sus datos son comprometidos/hay una violación.
 ●		●	X	Asegurar que los datos estén correctamente clasificados e inventariados.

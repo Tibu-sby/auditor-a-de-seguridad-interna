@@ -56,7 +56,7 @@ ________________________________________
 Lista de comprobación de cumplimiento
 
 Estándar de seguridad de datos de la industria de tarjetas de pago (PCI DSS)
-Sí	    No	 Mejor práctica
+        Sí              No		Mejor práctica
 ●		●	X	Sólo los usuarios autorizados tienen acceso a la información de las tarjetas de crédito de los clientes. 
 ●		●	X	La información de las tarjetas de crédito se almacena, acepta, procesa y transmite internamente, en un entorno seguro.
 ●		●	X	Implementar procedimientos de cifrado de datos para asegurar mejor los puntos de transacción y los datos de tarjetas de crédito. 
@@ -64,7 +64,7 @@ Sí	    No	 Mejor práctica
 
 
 Reglamento General de Protección de Datos (GDPR)
-Sí	    No	  Mejor práctica
+        Sí              No		Mejor práctica
 ●		●	X	Los datos de los clientes de la UE se mantienen privados/seguros.
 ●	X	●		Existe un plan para notificar a los clientes de la UE dentro de las 72 horas si sus datos son comprometidos/hay una violación.
 ●		●	X	Asegurar que los datos estén correctamente clasificados e inventariados.
@@ -72,7 +72,7 @@ Sí	    No	  Mejor práctica
 
 
 Controles de Sistemas y Organizaciones (SOC tipo 1, SOC tipo 2) 
-Sí	    No	Mejor práctica
+        Sí              No		Mejor práctica
 ●		●	X	Se establecen políticas de acceso de usuarios.
 ●		●	X	Los datos sensibles (PII/SPII) son confidenciales/privados.
 ●		●	X	La integridad de los datos asegura que los datos sean consistentes, completos, precisos y han sido validados.
